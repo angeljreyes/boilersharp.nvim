@@ -96,7 +96,7 @@ namespace VeryOldProject
 
   ```lua
   {
-    "DestopLine/boilersharp.nvim",
+    "angeljreyes/boilersharp.nvim",
     opts = {
       -- Your options go here
     },
@@ -112,7 +112,7 @@ namespace VeryOldProject
 
   ```lua
   MiniDeps.add({
-    source = "DestopLine/boilersharp.nvim",
+    source = "angeljreyes/boilersharp.nvim",
   })
   require("boilersharp").setup({
     -- Your options go here
@@ -128,7 +128,7 @@ namespace VeryOldProject
 
   ```lua
   use({
-    "DestopLine/boilersharp.nvim",
+    "angeljreyes/boilersharp.nvim",
     config = function()
       require("boilersharp").setup({
         -- Your options go here
@@ -145,7 +145,7 @@ namespace VeryOldProject
   </summary>
 
   ```vim
-  Plug 'DestopLine/boilersharp.nvim'
+  Plug 'angeljreyes/boilersharp.nvim'
   lua << EOF
   require("boilersharp").setup({
     -- Your options go here
